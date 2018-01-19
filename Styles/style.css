@@ -1,0 +1,760 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}	
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family:Trebuchet, Arial, sans-serif;  
+}
+
+#id_psw{
+  text-align: center;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/*
+#search {
+  text-align:center;
+}
+*/
+
+/*list bar*/
+.infoBar{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOG IN PAGE */
+/* whole border */
+.logIn {
+    width:290px;
+    padding:30px;
+    margin:10px auto;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 200, 55, 0.23);   
+}
+
+/* id and psw field */
+.logIn input[type="text"],
+.logIn input[type="password"],
+.logIn select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);   
+}
+
+/* titles */
+.logIn .section{
+    margin: auto;
+    color: #888;   
+}
+
+/* Log in button */
+.button-section1 input[type="submit"]{
+    background: #7DCE9A;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #7DCE9A;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SETTINGS PAGE */
+.setting {
+   width:310px;
+   padding:30px;
+   margin:40px auto;
+   background: #FFF;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   margin-top: 6%;
+}
+
+/* h1 design */
+.setting h1{
+   background: #7DCE9A ;
+   padding: 10px 20px 10px 30px;
+   margin: -30px -30px 30px -30px;
+   border-radius: 10px 10px 0 0;
+   color: #fff;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   border: 1px solid #7DCE9A ;
+   font-size: 25px;
+}
+/* swtich button on Settings page. Code from https://proto.io/freebies/onoff/*/ 
+.onoffswitch {
+    position: relative; 
+    width: 70px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    
+}
+.onoffswitch-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%; 
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 30px; 
+    padding: 0; 
+    line-height: 30px;
+    font-size: 14px; 
+    color: white; 
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #7DCE9A; 
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; 
+    color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; 
+    width: 18px; 
+    margin: 6px;
+    background: #FFFFFF;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 36px;
+    border: 1px solid #999999; 
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/* time option */
+#time {
+  border-radius: 5px;  
+  border: 0.5px solid #999999;
+}
+
+/* date option */
+#date {
+  border-radius: 5px;
+  border: 0.5px solid #999999;
+}
+
+/* Set button */
+.button-section4 input[type="submit"]{
+    background: #7DCE9A;
+    width: 114px;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    border: 1px solid #7DCE9A;
+    font-size: 15px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Table class */
+.table {
+  text-align:center;
+  text-decoration:none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*LISTING PAGE*/
+#t1 > tbody > tr:nth-child(even), thead {
+  border-bottom: solid #7DCE9A ;
+  border-width: thin;
+}
+
+#t1 > tbody > tr > td, th {
+  color: #18bc9c;
+  text-align: center;
+  font-weight: bold; 
+}
+
+#t1 {
+  width: 90%;
+  margin: 6%;
+}
+
+.list {
+  height: 90vh;
+  overflow-y: scroll;
+  margin-bottom: 40px;
+}
+
+.exp {
+  font-size: 20px;
+}
+
+/* Food items images */
+.icons { 
+  margin: auto;
+  width: 85%;
+  margin-bottom: 80px;
+  text-align: center;
+  height: 55vh;
+  overflow-y: scroll;
+  margin-top: 6%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #18bc9c;
+}
+
+/*Storage option buttons*/
+.storage {
+  display: table;
+  position: fixed;
+  text-align: center;
+  width: 75%;
+  left: 50%;
+  margin-left: -37.5%;
+  margin-top: 5px;
+  bottom: 11%;
+}
+
+input[type=submit] { 
+    background: #7DCE9A;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+button[type=submit] { 
+    background: #7DCE9A;
+    border-radius: 5px;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORGET PASSWORD PAGE */
+/* whole border */
+.password {
+    width:400px;
+    padding:30px;
+    margin:15px auto;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    margin-bottom: 80px;
+}
+
+/* h1 */
+.password h1 {
+    background: #7DCE9A;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #7DCE9A;
+    font-size: 30px;
+}
+
+/* email box */
+.password input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);   
+}
+
+
+/* labels above input fields */
+.password label{
+    display: block;
+    font-size:13px;
+    color: #888;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SUPPORT PAGE */
+/* message */
+.col-12 .support p {
+ text-align: left;
+ font-size: 12px;
+}
+
+#msg {
+ font-size: 12px;
+}
+
+/* whole border */
+.support {
+   width: 310px;
+   padding:30px;
+   margin:15px auto;
+   background: #FFF;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+   margin-top: 6%;
+   
+}
+
+/* h1 design */
+.support h1{
+   background: #7DCE9A ;
+   padding: 10px 20px 10px 30px;
+   margin: -30px -30px 30px -30px;
+   border-radius: 10px 10px 0 0;
+   color: #fff;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+   border: 1px solid #7DCE9A ;
+   font-size: 25px;
+}
+
+/* labels above input fields */
+.support label{
+    display: block;
+    font-size:13px;
+    color: #888;
+}
+
+/* input fields */
+.support input[type="text"],
+.support textarea,
+.support select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+/* Submit button */
+.button-section2 input[type="submit"]{
+    background: #7DCE9A;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #7DCE9A;
+    display: block;
+    margin: auto;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CREATE NEW ID PAGE */
+/* whole border */
+.signUp {
+    width:400px;
+    padding:30px;
+    margin:40px auto;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    margin-bottom: 80px;
+}
+
+/* inner border */
+.signUp .inner-wrap{
+    padding: 30px;
+    background: #F8F8F8;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* h1 design */
+.signUp h1{
+    background: #7DCE9A;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #7DCE9A;
+    font-size: 30px;
+}
+
+/* labels above input fields */
+.signUp label{
+    display: block;
+    font-size:13px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+/* input fields */
+.signUp input[type="text"],
+.signUp input[type="email"],
+.signUp input[type="url"],
+.signUp input[type="password"],
+.signUp textarea,
+.signUp select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+/* titles */
+.signUp .section{
+    font-size:17px;
+    color: #7DCE9A;
+    margin-bottom: 5px;
+}
+
+/* numbers beside titles */
+.signUp .section span {
+    background: #7DCE9A;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    font-size: 14px;
+    margin-left: -45px;
+    color: #fff;
+    margin-top: -3px;
+}
+
+/* Submit button */
+.button-section3 input[type="submit"]{
+    background: #7DCE9A;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #7DCE9A;
+    font-size: 15px;
+    margin: auto;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*NAVIGATION BAR*/
+/*Mobile version navigation bar*/
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #7DCE9A;
+  min-height:20px !important;
+  display: table;
+  padding-left: 15px;
+  padding-right: 15px;   
+}
+
+.navbar a {
+  display: inline-block;
+}
+
+.logo-image {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/*Desktop version navigation bar*/
+.deskNav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.deskNav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid;
+  border-bottom-color: #e7e7e7;
+  
+}
+
+.deskNav li {
+  float: left;
+}
+
+.deskNav li a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.deskNav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #7DCE9A;
+}
+
+.deskNav li a:hover {
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position:fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* AFFLIATED APPS PAGE */
+.affiliate_heading {
+    text-align: center;
+    color: #7DCE9A;
+    margin-top: 7%;
+}
+
+.affiliate_main {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.affiliate_table {
+    width: 65%;
+    margin: auto;
+    border: 1px dotted #AAF0D1;
+}
+
+.affiliate_td {
+    border: 1px solid #AAF0D1;
+    padding: 5px;
+    color: #255625;
+}
+
+.affiliate_name {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.items {
+    font-family:sans-serif;
+    text-align:center;
+    width: 100%; 
+}
+
+.categories {
+    color: #18bc9c;
+    background-color: white;   
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.categories:hover, .categories:focus {
+    background-color: #7DCE9A;
+    color: white;
+}
+
+.social {
+    color: #18bc9c ;
+     text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

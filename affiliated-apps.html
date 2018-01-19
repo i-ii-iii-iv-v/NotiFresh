@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="Styles/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="Styles/style.css" rel="stylesheet" media="screen">
+  <title>Affiliated Apps</title>
+  <!-- sign out script -->
+  <script>
+      onload = function() {
+          document.getElementById("l").onclick = function() {
+              if (confirm("Are you sure you want to sign out?") == true) {
+                  window.location.href = "login.php"
+              }
+          }
+      }
+  </script>
+</head>
+
+<body>
+
+<!--logo-->
+<div id="logo" class="visible-xs">
+  <a href="login.html">
+    <img src="images/logo_horizontal_fresh_edition.png" alt="NotiFresh Logo" width="200" height="75" />
+  </a>
+</div>
+
+<h3 class="affiliate_heading">Affiliated Apps</h3>
+
+<main class="affiliate_main">
+  <br>
+
+  <table class="affiliate_table">
+    <tr>
+      <td class="affiliate_td" width="120px">
+        <img src="images/foodspan-logo.png" title="FoodSpan" alt="FoodSpan" />
+      </td>
+      <td class="affiliate_td">
+        <div class="hidden-xs">
+          <span class="affiliate_name">FoodSpan</span> teaches people about the life expectancy of their food.&nbsp;
+          Users can look up food preservation tips made by others, or give their own input, as well.
+        </div>
+        <div class="visible-xs">
+          <span class="affiliate_name">FoodSpan</span>
+        </div>
+        <br>
+        <a href="https://foodspan-deca7.firebaseapp.com/" style="text-decoration:none">
+          https://foodspan-deca7.firebaseapp.com/</a>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table class="affiliate_table">
+    <tr>
+      <td class="affiliate_td" width="120px">
+        <img src="images/useitup-logo.png" title="Use It Up" alt="Use It Up" />
+      </td>
+      <td class="affiliate_td">
+        <div class="hidden-xs">
+          <span class="affiliate_name">Use It Up</span> lets users search for produce and provides recipes at
+          different states, as well as ways to store and preserve the foods.
+        </div>
+        <div class="visible-xs">
+          <span class="affiliate_name">Use It Up</span>
+        </div>
+        <br>
+        <a href="http://use-it-up.azurewebsites.net/" style="text-decoration:none">
+          http://use-it-up.azurewebsites.net/</a>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table class="affiliate_table">
+    <tr>
+      <td class="affiliate_td" width="120px">
+        <img src="images/wastehub-logo.png" title="WasteHub" alt="WasteHub" />
+      </td>
+      <td class="affiliate_td">
+        <div class="hidden-xs">
+          <span class="affiliate_name">WasteHub</span> helps users to keep track of their food waste, and to
+          effectively identify and improve their food waste habits.
+        </div>
+        <div class="visible-xs">
+          <span class="affiliate_name">WasteHub</span>
+        </div>
+        <br>
+        <a href="https://wastehub-55a96.firebaseapp.com/" style="text-decoration:none">
+          https://wastehub-55a96.firebaseapp.com/</a>
+      </td>
+    </tr>
+  </table>
+
+</main>
+
+<!--desktop navigation-->
+<div class = "hidden-xs">
+  <div class = "deskNav">
+    <ul>
+      <li><img src="images/logo_horizontal_fresh_edition.png" alt="NotiFresh Logo" width="148" height="50" /></li>
+      <li class="dropdown">
+        <a class="dropbtn">Home</a>
+        <div class="dropdown-content">
+          <a href="fruits.php">Fruits</a>
+          <a href="vegetables.php">Vegetables</a>
+        </div>
+      </li>
+      <li><a href="list.php">My List</a></li>
+      <li><a href="settings.php">Settings</a></li>
+      <li style="float:right"><a href="login.php"><span class="glyphicon glyphicon-user"></span>Log Out</a></li>
+    </ul>
+  </div>
+</div>
+
+<!--mobile navigation bar-->
+<div class = "visible-xs">
+  <div class="navbar">
+    <div class="logo-image">
+     <a href="fruits.php"><img src="images/homeIcon.png" class="img-responsive" alt="Home Icon Logo" title="Home" width="30" height="30" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a href="list.php"><img src="images/listIcon.png" class="img-responsive" alt="List Icon Logo" title="List" width="30" height="30" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a href="settings.php"><img src="images/settingIcon.png" class="img-responsive" alt="Setting Icon Logo" title="Setting" width="30" height="30" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a id="l"><img src="images/signOutIcon.png" class="img-responsive" alt="Sign Out Logo" title="Sign Out" width="30" height="30" /></a>
+    </div>
+  </div>
+</div>
+<!--
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">	
+  <link href="Styles/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="Styles/style.css" rel="stylesheet" media="screen">  
+  <title>Support</title>
+  <!-- sign out script -->
+  <script>
+      onload = function() {
+          document.getElementById("l").onclick = function() {
+              if (confirm("Are you sure you want to sign out?") == true) {
+                  window.location.href = "login.php"
+              }
+          }
+      }
+
+  </script>
+</head>
+
+<body>
+<div class="col-12">
+  <div class="support">
+  <h1>Customer Feedback</h1>
+  <p>Please send us any question you may have.&nbsp; We'll get back to you as soon as possible.</p>
+  <form method=post action="">
+    
+    <div class="inner-wrap">
+<!--subject field-->
+      <label for="topic">Subject</label>
+        <input type="text" id="topic" name="topic" class="field-large" maxlength="50" />
+      <br/>
+      
+<!--message field-->
+      <label for="msg">Message</label>
+        <textarea id="msg" name="msg" cols="40" rows="5" class="field-large" maxlength="150" placeholder="Maximum 150 characters" required></textarea>
+    </div>
+    
+<!--submit button-->
+      <div class="button-section2">
+        <input type="submit" name="Sign Up" value="Submit" />
+      </div>
+      
+  </form>
+  </div>
+</div>
+
+<!--desktop navigation-->
+<div class = "hidden-xs">
+ <div class = "deskNav">
+   <ul>
+     <li><img src="images/logo_horizontal_fresh_edition.png" alt="NotiFresh Logo" width="148" height="50" /></li>
+     <li class="dropdown">
+       <a class="dropbtn">Home</a>
+     <div class="dropdown-content">
+       <a href="fruits.php">Fruits</a>
+       <a href="vegetables.php">Vegetables</a>
+     </div>
+     </li>
+     <li><a href="list.php">My List</a></li>
+     <li><a href="settings.php">Settings</a></li>
+     <li style="float:right"><a href="login.php"><span class="glyphicon glyphicon-user"></span>Log Out</a></li>
+   </ul>
+ </div>
+</div>
+         
+<!--mobile navigation bar-->
+<div class = "visible-xs">
+ <div class="navbar">
+   <div class="logo-image">
+     <a href="fruits.php"><img src="images/homeIcon.png" class="img-responsive" alt="Home Icon Logo" title="Home" width="35" height="32" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a href="list.php"><img src="images/listIcon.png" class="img-responsive" alt="List Icon Logo" title="List" width="35" height="32" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a href="settings.php"><img src="images/settingIcon.png" class="img-responsive" alt="Setting Icon Logo" title="Setting" width="35" height="32" /></a>
+   </div>
+   
+  <div class="logo-image">
+     <a id="l"><img src="images/signOutIcon.png" class="img-responsive" alt="Sign Out Logo" title="Sign Out" width="35" height="32" /></a>
+   </div>
+ </div>
+</div>
+<div class ="social">
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Feasyname.000webhost.com&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="310" height="25" style="border:none;overflow:hidden; padding-left:6%" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+           <p>Share on Facebook and Twitter</p>
+           <a target="_blank" href="http://www.facebook.com/share.php?u=https://easyname.000webhost.com"><img src="images/fb-icon.png" width = "50" height = "50"/></a>&nbsp;&nbsp;
+           <a target="_blank" href="http://www.twitter.com/home?status=Save+food+lives!+https://easyname.000webhost.com"><img src="images/twitter-icon.png" width = "58" height = "58"/></a>
+</div><!--
+</body>
+
+</html>
